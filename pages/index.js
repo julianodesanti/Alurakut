@@ -61,7 +61,7 @@ export default function Home() {
             <OrkutNostalgicIconSet />
           </Box>
 
-          <Box>
+          {/* <Box>
             <h2 className="subTitle">O que você deseja fazer?</h2>
             <form onSubmit={function handleCriaComunidade(e) {
                 e.preventDefault();
@@ -98,7 +98,7 @@ export default function Home() {
                 Criar comunidade
               </button>
             </form>
-          </Box>
+          </Box>*/}
         </div>
         <div className="profileRelationsArea" style={{ gridArea: 'profileRelationsArea' }}>
           <ProfileRelationsBoxWrapper>
