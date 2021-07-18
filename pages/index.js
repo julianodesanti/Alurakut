@@ -26,8 +26,8 @@ export default function Home() {
   const usuarioAleatorio = 'julianodesanti';
   const [comunidades, setComunidades] = React.useState([{
     id: '12802378123789378912789789123896123', 
-    title: 'Brainstorm and Insights',
-    image: 'https://th.bing.com/th/id/OIP.EsegfQzSGxGju2xA8Z0yQwEsC8?pid=ImgDet&rs=1'
+    title: 'YOU ARE ODIGO',
+    image: 'https://i.ibb.co/zRhpgjv/2021-07-17.png'
   }]);
   // const comunidades = comunidades[0];
   // const alteradorDeComunidades/setComunidades = comunidades[1];
@@ -61,7 +61,7 @@ export default function Home() {
             <OrkutNostalgicIconSet />
           </Box>
 
-          {/* <Box>
+          <Box>
             <h2 className="subTitle">O que você deseja fazer?</h2>
             <form onSubmit={function handleCriaComunidade(e) {
                 e.preventDefault();
@@ -98,7 +98,7 @@ export default function Home() {
                 Criar comunidade
               </button>
             </form>
-          </Box>*/}
+          </Box>
         </div>
         <div className="profileRelationsArea" style={{ gridArea: 'profileRelationsArea' }}>
           <ProfileRelationsBoxWrapper>
