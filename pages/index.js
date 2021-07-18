@@ -106,7 +106,7 @@ export default function Home(props) {
 
   // 1 - Criar um box que vai ter um map, baseado nos items do array
   // que pegamos do GitHub
-  
+
   return (
     <>
       <AlurakutMenu />
