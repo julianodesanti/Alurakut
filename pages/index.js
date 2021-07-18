@@ -106,21 +106,7 @@ export default function Home(props) {
 
   // 1 - Criar um box que vai ter um map, baseado nos items do array
   // que pegamos do GitHub
-
-  <Box a="aside">
-      <img src={`https://github.com/${propriedades.githubUser}.png`} style={{ borderRadius: '8px' }} />
-      <hr />
-
-      <p>
-        <a className="boxLink" href={`https://github.com/${propriedades.githubUser}`}>
-          @{propriedades.githubUser}
-        </a>
-      </p>
-      <hr />
-
-      <AlurakutProfileSidebarMenuDefault />
-    </Box>
-
+  
   return (
     <>
       <AlurakutMenu />
