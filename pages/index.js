@@ -31,7 +31,7 @@ function ProfileRelationsBox(propriedades) {
         {propriedades.title} ({propriedades.items.length})
       </h2>
       <ul>
-        {/* {seguidores.map((itemAtual) => {
+        {seguidores.map((itemAtual) => {
           return (
             <li key={itemAtual}>
               <a href={`https://github.com/${itemAtual}.png`}>
@@ -40,7 +40,7 @@ function ProfileRelationsBox(propriedades) {
               </a>
             </li>
           )
-        })} */}
+        })}
       </ul>
     </ProfileRelationsBoxWrapper>
   )
