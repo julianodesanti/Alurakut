@@ -53,12 +53,12 @@ export default function Home(props) {
   // const alteradorDeComunidades/setComunidades = comunidades[1];
   // const comunidades = ['Alurakut'];
   const pessoasFavoritas = [
-    'juunegreiros',
-    'omariosouto',
-    'peas',
-    'rafaballerini',
-    'marcobrunodev',
-    'felipefialho',
+    'bot',
+    'billgates',
+    'Edward-Snowden',
+    'SteveJobsApple',
+    'torvalds',
+    'julianodesanti',
   ]
   const [seguidores, setSeguidores] = React.useState([]);
   // 0 - Pegar o array de dados do github 
@@ -106,6 +106,20 @@ export default function Home(props) {
 
   // 1 - Criar um box que vai ter um map, baseado nos items do array
   // que pegamos do GitHub
+
+  <Box a="aside">
+      <img src={`https://github.com/${propriedades.githubUser}.png`} style={{ borderRadius: '8px' }} />
+      <hr />
+
+      <p>
+        <a className="boxLink" href={`https://github.com/${propriedades.githubUser}`}>
+          @{propriedades.githubUser}
+        </a>
+      </p>
+      <hr />
+
+      <AlurakutProfileSidebarMenuDefault />
+    </Box>
 
   return (
     <>
